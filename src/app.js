@@ -121,5 +121,10 @@ if(USDToday > USDYesterday){
     let Array1 = [10,20,fun1,"samet"]
     let [sayi1,sayi2,metot,string] = Array1
 
-    console.log(string)
+    console.log(string) 
 
+    let blog = {id:1 , BlogTitle:"yazılım"}
+    console.log(blog.id) //id yi okuması için yazdık
+    console.log(blog["BlockTitle"]) 
+
+    
